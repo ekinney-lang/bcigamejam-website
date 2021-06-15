@@ -1,8 +1,12 @@
 /* ------------------------------------------------------------- */
 /* Tags */ 
+@font-face {
+  font-family: "Phenomena";
+  src: url("https://github.com/bcigamers/bcigamejam-website/fonts/phenomena_font/Phenomena-Regular.ttf") format("truetype");
+}
 
 body {
-    font-family: "Segoe UI Light"; 
+    font-family: "Phenomena"; 
     color: white;
     font-size: 1.5rem; 
 }
