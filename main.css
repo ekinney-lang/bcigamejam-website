@@ -1,10 +1,12 @@
 /* ------------------------------------------------------------- */
-/* Tags */ 
+/* Fonts */ 
 @font-face {
   font-family: "Phenomena";
   src: url("assets/fonts/phenomena_font/Phenomena-Regular.ttf") format("truetype");
 }
 
+/* ------------------------------------------------------------- */
+/* Tags */ 
 body {
     font-family: "Phenomena"; 
     color: white;
@@ -20,7 +22,7 @@ h2 {
 }
 
 button {
-    font-family: "Segoe UI Light";
+    font-family: "Phenomena";
 }
 
 /* ------------------------------------------------------------- */
@@ -80,7 +82,7 @@ button {
     height: 100%; 
     width: 100%; 
     font-size: 2rem; 
-    font-family: 'Segoe UI Light';
+    font-family: 'Phenomena';
     background-color: #e704e6;
     color: white;
     border: none;
