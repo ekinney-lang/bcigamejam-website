@@ -48,7 +48,7 @@ button {
     display: flex; 
     justify-content: flex-start;
     align-items: center;
-    background-image: url('assets/images/bci_games_background_banner2.png');
+    background-image: url('./assets/images/bci_games_background_banner2.png');
     background-size: cover; 
     background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ button {
   margin-right: 21%; 
   height: 100%; 
   display: block; 
-  background-image: url('assets/images/bcigames_logo_banner_left.png');
+  background-image: url('./assets/images/bcigames_logo_banner_left.png');
   background-size: contain; 
   background-repeat: no-repeat;
 }
