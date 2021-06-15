@@ -43,11 +43,14 @@ button {
 
 #navigation { 
     width: 100%; 
-    height: 12%; 
+    height: 15%; 
     background-color: #a6a6a6;
     display: flex; 
     justify-content: flex-start;
     align-items: center;
+    background-image: url('assets/images/bci_games_background_banner2.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 #content{
@@ -62,17 +65,17 @@ button {
 /* Nav Bar */ 
 
 #logo {
-    color: white; 
-    width: 54%; 
-    margin-left: 2%; 
-    font-size: 3rem; 
-    font-weight: bold; 
-    vertical-align: middle;
-    text-decoration: none;
+  width: 35%; 
+  margin-right: 21%; 
+  height: 100%; 
+  display: block; 
+  background-image: url('./assets/images/bcigames_logo_banner_left.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
 }
 
 .dropdown {
-    height: 100%; 
+    height: 60%; 
     width: 14%; 
     position: relative;
     display: inline-block;
@@ -94,7 +97,7 @@ button {
     width: 100%; 
     display: none;
     position: absolute;
-    background-color:#feb4fe;
+    background-color:#ffe6ff;
     font-size: 1.5rem; 
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -109,7 +112,7 @@ button {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #fd9bfd}
+  .dropdown-content a:hover {background-color: #feb4fe}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
