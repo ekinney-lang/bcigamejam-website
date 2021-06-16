@@ -212,6 +212,7 @@ button {
 
 
 /* ------------------------------------------------------------- */
+/* Content Pages - General */
 
 #content h3{
   margin-left: 3%; 
@@ -243,6 +244,16 @@ button {
 
 }
 
+/* ------------------------------------------------------------- */
+/* Event Details Page */
+
+#linktoResources{
+  color: #e704e6;
+  text-decoration: none;
+}
+#linkToResources:hover{
+  color: #ffe6ff;
+}
 
 #toRegistrationInfoBtn{
   width: 14%; 
