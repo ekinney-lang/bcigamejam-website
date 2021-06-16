@@ -156,3 +156,35 @@ button {
 #learn-more:hover{
     background-color: #8c8c8c;
 }
+
+#winners2019{
+  width: 80%; 
+  height: 50%; 
+  border: 0.5rem solid white; 
+
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.winnerDiv{
+  width: 25%; 
+  height: 100%; 
+  border: 0.5rem solid white; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label{
+  width: 100%;
+  text-align: center; 
+}
+
+.game{
+  width: 100%; 
+  height: 85%; 
+  border: 0.5 rem solid white; 
+}
