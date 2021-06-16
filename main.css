@@ -132,7 +132,7 @@ button {
 
 
 /* ------------------------------------------------------------- */
-/* Content */ 
+/* Landing Page Content */ 
 
 .intro-content{
     width: 100%; 
@@ -144,17 +144,18 @@ button {
 }
 
 #learn-more{
-    background-color:  #a6a6a6;
+    background-color: aqua;
     border: none; 
     margin-top: 2%; 
     height: 8%; 
     width: 10%; 
     text-align: center; 
     font-size: 1.5rem; 
+    transition: all 0.15s; 
 }
 
 #learn-more:hover{
-    background-color: #8c8c8c;
+    background-color: #00b3b3;
 }
 
 #winners2019{
@@ -197,17 +198,23 @@ button {
 }
 
 #toShowcaseBtn{
-  background-color:  #a6a6a6;
+  background-color: aqua;
   border: none; 
   margin-top: 3%; 
   height: 8%; 
   width: 14%; 
   text-align: center; 
   font-size: 1.5rem; 
+  transition: all 0.15s; 
 }
 
 #toShowcaseBtn:hover{
-  background-color: #8c8c8c;
+  background-color: #00b3b3;
+}
+
+#intro-contact{
+  background-color: dimgrey;
+  height: 60%; 
 }
 
 
@@ -258,7 +265,7 @@ button {
 #toRegistrationInfoBtn{
   width: 14%; 
   height: 100%; 
-  background-color: #a6a6a6;
+  background-color: aqua;
   border: none; 
   transition: all 0.15s; 
   text-align: center; 
@@ -267,5 +274,5 @@ button {
 }
 
 #toRegistrationInfoBtn:hover{
-  background-color: #8c8c8c;
+  background-color: #00b3b3;
 }
