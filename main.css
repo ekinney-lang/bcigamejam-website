@@ -150,7 +150,7 @@ a {
 #game-jam-logo{
   width: 95%; 
   height: 95%; 
-  background-image: url('./assets/images/game_jam_logo.png');
+  background-image: url('assets/images/game_jam_logo.png');
   background-position: center; 
   background-size: contain; 
   background-repeat: no-repeat;
