@@ -25,6 +25,10 @@ button {
     font-family: "Phenomena";
 }
 
+a {
+  color: aqua; 
+}
+
 /* ------------------------------------------------------------- */
 /* Page Content */ 
 
@@ -141,6 +145,15 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#game-jam-logo{
+  width: 95%; 
+  height: 95%; 
+  background-image: url('./assets/images/game_jam_logo.png');
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
 }
 
 #learn-more{
