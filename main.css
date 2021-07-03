@@ -176,8 +176,7 @@ a:hover {
     background-color: #00b3b3;
 }
 
-#winners2019{
-  border: 0.15 solid grey; 
+#winners2019{ 
   width: 70%; 
   height: 60%; 
   display: flex; 
@@ -187,7 +186,6 @@ a:hover {
 }
 
 .winnerDiv{
-  border: 0.15 solid white; 
   width: 27%; 
   height: 75%; 
   display: flex; 
@@ -220,7 +218,7 @@ a:hover {
 }
 
 #sumo-bootle{
-  background-image: url('assets/images/sumo_bootle_1.png');
+  background-image: url('assets/images/sumo_bootle_2.png');
 }
 
 #planet-defender{
