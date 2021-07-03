@@ -204,8 +204,10 @@ a:hover {
 
 .game{
   width: 100%; 
-  height: 85%; 
   border: 0.2rem solid white;
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
 }
 
 .gameName{
@@ -213,6 +215,18 @@ a:hover {
   text-align: center;
   font-size: 1.5rem; 
   vertical-align: middle;
+}
+
+#sumo-bootle{
+  background-image: url('assets/images/sumo_bootle_1.png');
+}
+
+#planet-defender{
+  background-image: url('assets/planet_defender.png');
+}
+
+#kolor-kaze{
+  background-image: url('assets/kolor_kaze_3.png');
 }
 
 #toShowcaseBtn{
