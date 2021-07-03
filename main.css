@@ -204,8 +204,7 @@ a:hover {
 
 .game{
   width: 100%; 
-  height: 95%;
-  border: 0.2rem solid white;
+  height: 65%;
   background-position: center; 
   background-size: contain; 
   background-repeat: no-repeat;
@@ -223,11 +222,11 @@ a:hover {
 }
 
 #planet-defender{
-  background-image: url('assets/planet_defender.png');
+  background-image: url('assets/images/planet_defender.png');
 }
 
 #kolor-kaze{
-  background-image: url('assets/kolor_kaze_3.png');
+  background-image: url('assets/images/kolor_kaze_3.png');
 }
 
 #toShowcaseBtn{
