@@ -280,6 +280,11 @@ a:hover {
   margin-right: 3%; 
 }
 
+#content ul{
+  margin-left: 3%; 
+  margin-right: 3%; 
+}
+
 #content .btnContainer{
   width: 100%; 
   height: 8%; 
