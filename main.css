@@ -204,7 +204,7 @@ a:hover {
 
 .game{
   width: 100%; 
-  height: auto;
+  height: 95%;
   border: 0.2rem solid white;
   background-position: center; 
   background-size: contain; 
