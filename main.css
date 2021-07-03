@@ -177,6 +177,7 @@ a:hover {
 }
 
 #winners2019{
+  border: 0.15 solid grey; 
   width: 70%; 
   height: 60%; 
   display: flex; 
@@ -186,6 +187,7 @@ a:hover {
 }
 
 .winnerDiv{
+  border: 0.15 solid white; 
   width: 27%; 
   height: 75%; 
   display: flex; 
