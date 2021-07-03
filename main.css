@@ -100,6 +100,7 @@ a:hover {
     height: 100%; 
     width: 100%; 
     font-size: 2rem; 
+    font-weight: bold; 
     font-family: 'Phenomena';
     background-color: #e704e6;
     color: white;
