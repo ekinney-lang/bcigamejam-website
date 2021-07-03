@@ -151,6 +151,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #game-jam-logo{
@@ -270,6 +271,11 @@ a:hover {
 }
 
 #content p{
+  margin-left: 3%; 
+  margin-right: 3%; 
+}
+
+#content ol{
   margin-left: 3%; 
   margin-right: 3%; 
 }
