@@ -324,6 +324,7 @@ a:hover {
 /* ------------------------------------------------------------- */
 /* Schedule Page */
 #day0{
+  margin-left: 3%; 
   width: 50%;
   display: grid; 
   grid-template-columns: repeat(4, 1f);
