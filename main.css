@@ -324,6 +324,7 @@ a:hover {
 /* ------------------------------------------------------------- */
 /* Schedule Page */
 #day0{
+  width: 50%;
   display: grid; 
   grid-template-columns: repeat(4, 1f);
 }
@@ -332,7 +333,6 @@ a:hover {
   font-weight: bold; 
   color: #e704e6;
   grid-column-start: 1;
-  grid-column-end: 1;
 }
 
 .event{
