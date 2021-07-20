@@ -320,3 +320,21 @@ a:hover {
 #toRegistrationInfoBtn:hover{
   background-color: #00b3b3;
 }
+
+/* ------------------------------------------------------------- */
+/* Schedule Page */
+#day0{
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.time{
+  font-weight: bold; 
+  color: #e704e6;
+  grid-column-start: 1;
+}
+
+.event{
+  grid-column-start: 2;
+  grid-column-end: 4; 
+}
