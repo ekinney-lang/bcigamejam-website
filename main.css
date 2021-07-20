@@ -325,12 +325,17 @@ a:hover {
 /* Schedule Page */
 #day0{
   display: grid; 
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1f);
 }
 
 .time{
   font-weight: bold; 
   color: #e704e6;
-
+  grid-column-start: 1;
+  grid-column-end: 1;
 }
 
+.event{
+  grid-column-start: 2;
+  grid-column-end: 4; 
+}
