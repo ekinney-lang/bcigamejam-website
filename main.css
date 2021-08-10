@@ -328,7 +328,7 @@ a:hover {
   margin-left: 3%; 
   width: 50%;
   display: grid; 
-  grid-template-columns: repeat(4, 1f);
+  grid-template-columns: 20% 80%;
   align-items: start;
 }
 
@@ -337,13 +337,9 @@ a:hover {
   border-top: 1px solid white;
   font-weight: bold; 
   color: #e704e6;
-  grid-column-start: 1;
-  grid-column-end: 2; 
 }
 
 .event{
   border-left: 1px solid white;
   border-top: 1px solid white;
-  grid-column-start: 2;
-  grid-column-end: 4; 
 }
