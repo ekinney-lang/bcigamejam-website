@@ -330,6 +330,7 @@ a:hover {
   display: grid; 
   grid-template-columns: repeat(4, 1f);
   align-items: start;
+  border: 1px solid white
 }
 
 .time{
