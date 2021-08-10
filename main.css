@@ -333,16 +333,16 @@ a:hover {
 }
 
 .time{
-  border-left: 5px solid white;
-  border-top: 5px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
   font-weight: bold; 
   color: #e704e6;
   grid-column-start: 1;
 }
 
 .event{
-  border-left: 5px solid white;
-  border-top: 5px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
   grid-column-start: 2;
   grid-column-end: 4; 
 }
