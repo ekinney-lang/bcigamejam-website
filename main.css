@@ -328,18 +328,11 @@ a:hover {
   margin-left: 3%; 
   width: 50%;
   display: grid; 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 17% 83%;
   align-items: start;
 }
 
 .time{
-  border-left: 1px solid white;
-  border-top: 1px solid white;
   font-weight: bold; 
   color: #e704e6;
-}
-
-.event{
-  border-left: 1px solid white;
-  border-top: 1px solid white;
 }
