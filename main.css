@@ -329,7 +329,7 @@ a:hover {
   width: 50%;
   display: grid; 
   grid-template-columns: repeat(4, 1f);
-  text-align: left; 
+  align-items: start;
 }
 
 .time{
