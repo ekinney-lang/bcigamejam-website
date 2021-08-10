@@ -323,7 +323,8 @@ a:hover {
 
 /* ------------------------------------------------------------- */
 /* Schedule Page */
-#day0{
+
+.scheduleGrid{
   margin-left: 3%; 
   width: 50%;
   display: grid; 
