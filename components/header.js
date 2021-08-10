@@ -29,6 +29,7 @@ class Header extends HTMLElement {
                     <a href="../pages/gamJamTips.html">Game Jam Tips</a>
                     <a href="../pages/gameDesignBasics.html">Basics of Game Design</a>
                     <a href="../pages/bciControllers.html">BCI Game Controllers</a>
+                    <a href="../pages/faq.html">FAQ</a>
                 </div>
             </div>
         </div>
