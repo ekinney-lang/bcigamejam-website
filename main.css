@@ -376,3 +376,19 @@ a:hover {
   color: #e704e6;
 }
 
+/* ------------------------------------------------------------- */
+/* 2019 Showcase Page */
+
+#showcaseGrid{
+  margin-left: 3%;
+  width: 90%; 
+  height: 90%; 
+  display: grid;
+  grid-template-columns: repeat(3, 1f);
+  grid-template-rows: repeat(3, 1f); 
+  align-items: center;
+} 
+
+.gameSubmission{
+  border: 1px solid white; 
+}
