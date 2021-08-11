@@ -252,8 +252,10 @@ a:hover {
 }
 
 #intro-contact{
-  background-color: dimgrey;
-  height: 40%; 
+  background-image: url('assets/images/bci_games_footer_banner.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 50%; 
 }
 
 #sponsorLogos{
