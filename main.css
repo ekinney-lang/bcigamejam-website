@@ -322,7 +322,13 @@ a:hover {
   justify-content: center;
   margin-top: 4%; 
   margin-bottom: 4%;
+}
 
+.videoCentered{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 /* ------------------------------------------------------------- */
