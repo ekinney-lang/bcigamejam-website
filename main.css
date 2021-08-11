@@ -70,7 +70,7 @@ a:hover {
 
 #content{
     width: 100%; 
-    height: 85%; 
+    height: 90%; 
     overflow-x: hidden;
     overflow-y: scroll; 
     -ms-overflow-style: none;  /* IE and Edge */
@@ -262,6 +262,22 @@ a:hover {
   flex-direction: row; 
   justify-content: space-between;
   align-items: center;
+}
+
+.sponsorLogo{
+  width: 25%; 
+}
+
+#partnerLogos{
+  width: 100%;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partnerLogo{
+  width: 25%;
 }
 
 
