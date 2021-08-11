@@ -382,10 +382,12 @@ a:hover {
 #showcaseGrid{
   margin-left: 3%;
   width: 90%; 
-  height: 90%; 
+  height: 120%; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; 
+  column-gap: 4%; 
+  row-gap: 4%; 
 } 
 
 .gameSubmission{
