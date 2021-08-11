@@ -384,9 +384,8 @@ a:hover {
   width: 90%; 
   height: 90%; 
   display: grid;
-  grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 33% 34% 33%; 
-  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; 
 } 
 
 .gameSubmission{
