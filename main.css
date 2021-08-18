@@ -64,7 +64,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-image: url('assets/images/bci_games_background_banner2.png');
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat;
 
 }
@@ -91,7 +91,7 @@ a:hover {
   min-height: 200px; 
   height: 100%; 
   background-image: url('assets/images/bcigames_logo_banner_left.png');
-  background-size: cover; 
+  background-size: contain; 
   background-repeat: no-repeat;
 }
 
@@ -99,7 +99,7 @@ a:hover {
   width: 45%; 
   height: 60%;
   min-height: 60px; 
-  margin-right: 4%; 
+  margin-right: 2%; 
   display: flex; 
   justify-content: flex-end;
   align-items: center; 
