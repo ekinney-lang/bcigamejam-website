@@ -11,6 +11,7 @@ body {
     font-family: "Phenomena"; 
     color: white;
     font-size: 1.5rem; 
+    overflow-x: scroll; 
 }
 
 h1 { 
@@ -89,6 +90,7 @@ a:hover {
   width: 35%; 
   margin-right: 21%; 
   min-height: 200px; 
+  min-width: 400px; 
   height: 100%; 
   display: block; 
   background-image: url('assets/images/bcigames_logo_banner_left.png');
