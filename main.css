@@ -390,6 +390,27 @@ a:hover {
   row-gap: 5%; 
 } 
 
-.gameSubmission{
+.showcaseDiv{
   border: 1px solid white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showcaseTitle{
+  height: 10%; 
+  width: 100%; 
+  font-weight: bold; 
+  color: #e704e6;
+}
+
+.showcaseScreenshot{
+  height: 70%; 
+  width: 100%;
+}
+
+.showcaseDescrip{
+  height: 20%; 
+  width: 100%; 
 }
