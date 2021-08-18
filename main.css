@@ -86,11 +86,14 @@ a:hover {
 /* Nav Bar */ 
 
 #logo {
+  width: 30%;
+  min-width: 600px; 
   min-height: 200px; 
   height: 100%; 
   background-image: url('assets/images/bcigames_logo_banner_left.png');
   background-size: cover; 
   background-repeat: no-repeat;
+  border: 2px solid pink; 
 }
 
 #dropdown-menus{
