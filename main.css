@@ -358,6 +358,7 @@ a:hover {
 #toRegistrationInfoBtn{
   width: 14%; 
   height: 100%; 
+  min-width: 150; 
   background-color: aqua;
   border: none; 
   transition: all 0.15s; 
@@ -376,6 +377,7 @@ a:hover {
 .scheduleGrid{
   margin-left: 3%; 
   width: 50%;
+  min-width: 600px; 
   display: grid; 
   grid-template-columns: 15% 85%;
   align-items: start;
