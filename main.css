@@ -90,7 +90,7 @@ a:hover {
   width: 35%; 
   margin-right: 21%; 
   min-height: 200px; 
-  min-width: 400px; 
+  min-width: 350px; 
   height: 100%; 
   display: block; 
   background-image: url('assets/images/bcigames_logo_banner_left.png');
@@ -101,7 +101,7 @@ a:hover {
 .dropdown {
     height: 60%; 
     width: 14%; 
-    min-width: 180px; 
+    min-width: 160px; 
     min-height: 60px; 
     position: relative;
     display: inline-block;
