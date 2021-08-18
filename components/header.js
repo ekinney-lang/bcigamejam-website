@@ -23,7 +23,7 @@ class Header extends HTMLElement {
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Resources</button>
+                <button class="dropbtn" id="lastdropdown">Resources</button>
                 <div class="dropdown-content">
                     <a href="../pages/whatIsBCI.html">What is a BCI?</a>
                     <a href="../pages/gamJamTips.html">Game Jam Tips</a>
