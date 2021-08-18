@@ -64,7 +64,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-image: url('assets/images/bci_games_background_banner2.png');
-    background-size: cover; 
+    background-size: contain; 
     background-repeat: no-repeat;
 
 }
@@ -93,7 +93,6 @@ a:hover {
   background-image: url('assets/images/bcigames_logo_banner_left.png');
   background-size: cover; 
   background-repeat: no-repeat;
-  border: 2px solid pink; 
 }
 
 #dropdown-menus{
