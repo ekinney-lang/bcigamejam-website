@@ -382,7 +382,7 @@ a:hover {
 #showcaseGrid{
   margin-left: 3%;
   width: 90%; 
-  height: 150%; 
+  height: 180%; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; 
@@ -399,7 +399,7 @@ a:hover {
 }
 
 .showcaseTitle{
-  height: 10%; 
+  height: 8%; 
   width: 100%; 
   font-weight: bold; 
   color: #e704e6;
@@ -410,7 +410,12 @@ a:hover {
   width: 100%;
 }
 
+#yummyYuckyGif{
+  height: 70%; 
+  width: 100%; 
+}
+
 .showcaseDescrip{
-  height: 20%; 
+  height: 18%; 
   width: 100%; 
 }
