@@ -473,5 +473,12 @@ a:hover {
     scrollbar-width: none;  /* Firefox */
     background-color: white;
 }
+#content h3{
+  margin-left: 3%; 
+  font-weight: bold; 
+  color: white;
+  font-size: 3rem; 
+
+}
 
 }
