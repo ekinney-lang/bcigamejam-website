@@ -450,6 +450,7 @@ a:hover {
   /* Page Content */ 
 
   #page {
+    background-color: white;
     position: fixed; 
     top: 50%; 
     left: 50%; 
