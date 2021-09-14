@@ -437,3 +437,29 @@ a:hover {
   height: 18%; 
   width: 100%; 
 }
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  /* Page Content */ 
+
+  #page {
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+}
