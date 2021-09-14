@@ -5,438 +5,7 @@
   src: url("assets/fonts/phenomena_font/Phenomena-Regular.ttf") format("truetype");
 }
 
-/* ------------------------------------------------------------- */
-/* Tags */ 
-body {
-    font-family: "Phenomena"; 
-    color: white;
-    font-size: 1.5rem; 
-}
 
-h1 { 
-    font-size: 6rem;
-}
-
-h2 {
-    font-size: 3rem; 
-}
-
-button {
-    font-family: "Phenomena";
-}
-
-a {
-  color: aqua; 
-  transition: all 0.15s; 
-}
-
-a:hover {
-  color: #00b3b3; 
-}
-
-/* ------------------------------------------------------------- */
-/* Page Content */ 
-
-#page {
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    height: 100%; 
-    width: 100%; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.headerDiv{
-    width: 100%;
-    height: 15%;  
-    min-height: 100px; 
-}
-
-#navigation { 
-    width: 100%; 
-    height: 100%; 
-    background-color: #a6a6a6;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('assets/images/bci_games_background_banner2.png');
-    background-size: cover; 
-    background-repeat: no-repeat;
-
-}
-
-#content{
-    width: 100%; 
-    height: 90%; 
-    overflow-x: hidden;
-    overflow-y: scroll; 
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    background-color: #262626;
-}
-#content::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
-  display: none;
-}
-
-/* ------------------------------------------------------------- */
-/* Nav Bar */ 
-
-#logo {
-  width: 30%;
-  min-width: 600px; 
-  min-height: 200px; 
-  height: 100%; 
-  background-image: url('assets/images/bcigames_logo_banner_left.png');
-  background-size: contain; 
-  background-repeat: no-repeat;
-}
-
-#dropdown-menus{
-  width: 45%; 
-  height: 60%;
-  min-height: 60px; 
-  margin-right: 2%; 
-  display: flex; 
-  justify-content: flex-end;
-  align-items: center; 
-}
-
-.dropdown {
-    min-width: 160px; 
-    position: relative;
-    display: inline-block;
-  }
-
-.dropbtn {
-    height: 100%; 
-    width: 100%; 
-    font-size: 2rem; 
-    font-weight: bold; 
-    font-family: 'Phenomena';
-    background-color: #e704e6;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    width: 100%; 
-    display: none;
-    position: absolute;
-    background-color:#ffe6ff;
-    font-size: 1.5rem; 
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #feb4fe}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #c903c9;
-  }
-
-
-/* ------------------------------------------------------------- */
-/* Landing Page Content */ 
-
-.intro-content{
-    width: 100%; 
-    height: 100%; 
-    min-height: 800px; 
-    min-width: 1000px; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-}
-
-#game-jam-logo{
-  width: 95%; 
-  height: 95%; 
-  background-image: url('assets/images/game_jam_logo.png');
-  background-position: center; 
-  background-size: contain; 
-  background-repeat: no-repeat;
-}
-
-#learn-more{
-    background-color: aqua;
-    border: none; 
-    margin-top: 2%; 
-    height: 8%; 
-    width: 10%; 
-    min-width: 120px; 
-    text-align: center; 
-    font-size: 1.5rem; 
-    transition: all 0.15s; 
-}
-
-#learn-more:hover{
-    background-color: #00b3b3;
-}
-
-#winners2019{ 
-  width: 70%; 
-  height: 60%; 
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.winnerDiv{
-  width: 27%; 
-  height: 75%; 
-  display: flex; 
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.label{
-  width: 100%;
-  text-align: center; 
-  font-size: 2rem; 
-  vertical-align: middle;
-  color: #e704e6; 
-}
-
-.game{
-  width: 100%; 
-  height: 65%;
-  background-position: center; 
-  background-size: contain; 
-  background-repeat: no-repeat;
-}
-
-.gameName{
-  width: 100%; 
-  text-align: center;
-  font-size: 1.5rem; 
-  vertical-align: middle;
-}
-
-#sumo-bootle{
-  background-image: url('assets/images/sumo_bootle_2.png');
-}
-
-#planet-defender{
-  background-image: url('assets/images/planet_defender.png');
-}
-
-#kolor-kaze{
-  background-image: url('assets/images/kolor_kaze_3.png');
-}
-
-#toShowcaseBtn{
-  background-color: aqua;
-  border: none; 
-  margin-top: 3%; 
-  height: 8%; 
-  width: 14%; 
-  min-width: 200px; 
-  text-align: center; 
-  font-size: 1.5rem; 
-  transition: all 0.15s; 
-}
-
-#toShowcaseBtn:hover{
-  background-color: #00b3b3;
-}
-
-#intro-contact{
-  background-image: url('assets/images/bci_games_footer_banner.png');
-  background-size: cover; 
-  background-repeat: no-repeat;
-  height: 50%; 
-  justify-content: center;
-}
-
-#sponsorLogos{
-  width: 90%; 
-  display: flex;
-  flex-direction: row; 
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sponsorLogo{
-  width: 25%; 
-}
-
-#partnerLogos{
-  width: 90%;
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between;
-  align-items: center;
-}
-
-.partnerLogo{
-  width: 25%;
-}
-
-
-
-/* ------------------------------------------------------------- */
-/* Content Pages - General */
-
-#content h3{
-  margin-left: 3%; 
-  font-weight: bold; 
-  color: #e704e6;
-  font-size: 3rem; 
-
-}
-
-#content h4{
-  margin-left: 3%;
-  font-weight: bold; 
-  color: #ffe6ff;
-  font-size: 2rem; 
-}
-
-#content p{
-  margin-left: 3%; 
-  margin-right: 3%; 
-}
-
-#content ol{
-  margin-left: 3%; 
-  margin-right: 3%; 
-}
-
-#content ul{
-  margin-left: 3%; 
-  margin-right: 3%; 
-}
-
-#content .btnContainer{
-  width: 100%; 
-  height: 8%; 
-  display: flex; 
-  justify-content: center;
-  margin-top: 4%; 
-  margin-bottom: 4%;
-}
-
-.videoCentered{
-  width: 100%; 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-/* ------------------------------------------------------------- */
-/* Event Details Page */
-
-#linktoResources{
-  color: #e704e6;
-  text-decoration: none;
-}
-#linkToResources:hover{
-  color: #ffe6ff;
-}
-
-#toRegistrationInfoBtn{
-  width: 14%; 
-  height: 100%; 
-  min-width: 150; 
-  background-color: aqua;
-  border: none; 
-  transition: all 0.15s; 
-  text-align: center; 
-  font-size: 1.5rem; 
-
-}
-
-#toRegistrationInfoBtn:hover{
-  background-color: #00b3b3;
-}
-
-/* ------------------------------------------------------------- */
-/* Schedule Page */
-
-.scheduleGrid{
-  margin-left: 3%; 
-  width: 50%;
-  min-width: 600px; 
-  display: grid; 
-  grid-template-columns: 15% 85%;
-  align-items: start;
-}
-
-.time{
-  font-weight: bold; 
-  color: #e704e6;
-}
-
-/* ------------------------------------------------------------- */
-/* 2019 Showcase Page */
-
-#showcaseGrid{
-  margin-left: 3%;
-  width: 90%; 
-  height: 200%; 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr; 
-  column-gap: 5%; 
-  row-gap: 5%; 
-} 
-
-.showcaseDiv{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.showcaseTitle{
-  height: 8%; 
-  margin-bottom: 2%;
-  width: 100%; 
-  font-weight: bold; 
-  color: #e704e6;
-  font-size: 1.5rem;
-}
-
-.showcaseScreenshot{
-  height: 70%; 
-  width: 100%;
-}
-
-#yummyYuckyGif{
-  margin-bottom: 2%; 
-  height: 70%; 
-  width: 100%; 
-}
-
-.showcaseDescrip{
-  height: 18%; 
-  width: 100%; 
-}
 
 
 /* ----------- iPhone X ----------- */
@@ -479,6 +48,447 @@ a:hover {
   color: white;
   font-size: 3rem; 
 
+}
+
+}
+
+
+/* ----------- Desktop ----------- */
+
+
+@media only screen 
+  and (min-device-width: 812px) {  
+    /* ------------------------------------------------------------- */
+/* Tags */ 
+body {
+  font-family: "Phenomena"; 
+  color: white;
+  font-size: 1.5rem; 
+}
+
+h1 { 
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem; 
+}
+
+button {
+  font-family: "Phenomena";
+}
+
+a {
+color: aqua; 
+transition: all 0.15s; 
+}
+
+a:hover {
+color: #00b3b3; 
+}
+
+/* ------------------------------------------------------------- */
+/* Page Content */ 
+
+#page {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  height: 100%; 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerDiv{
+  width: 100%;
+  height: 15%;  
+  min-height: 100px; 
+}
+
+#navigation { 
+  width: 100%; 
+  height: 100%; 
+  background-color: #a6a6a6;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('assets/images/bci_games_background_banner2.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+
+#content{
+  width: 100%; 
+  height: 90%; 
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  background-color: #262626;
+}
+#content::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+display: none;
+}
+
+/* ------------------------------------------------------------- */
+/* Nav Bar */ 
+
+#logo {
+width: 30%;
+min-width: 600px; 
+min-height: 200px; 
+height: 100%; 
+background-image: url('assets/images/bcigames_logo_banner_left.png');
+background-size: contain; 
+background-repeat: no-repeat;
+}
+
+#dropdown-menus{
+width: 45%; 
+height: 60%;
+min-height: 60px; 
+margin-right: 2%; 
+display: flex; 
+justify-content: flex-end;
+align-items: center; 
+}
+
+.dropdown {
+  min-width: 160px; 
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  height: 100%; 
+  width: 100%; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  font-family: 'Phenomena';
+  background-color: #e704e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  width: 100%; 
+  display: none;
+  position: absolute;
+  background-color:#ffe6ff;
+  font-size: 1.5rem; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #feb4fe}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #c903c9;
+}
+
+
+/* ------------------------------------------------------------- */
+/* Landing Page Content */ 
+
+.intro-content{
+  width: 100%; 
+  height: 100%; 
+  min-height: 800px; 
+  min-width: 1000px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+#game-jam-logo{
+width: 95%; 
+height: 95%; 
+background-image: url('assets/images/game_jam_logo.png');
+background-position: center; 
+background-size: contain; 
+background-repeat: no-repeat;
+}
+
+#learn-more{
+  background-color: aqua;
+  border: none; 
+  margin-top: 2%; 
+  height: 8%; 
+  width: 10%; 
+  min-width: 120px; 
+  text-align: center; 
+  font-size: 1.5rem; 
+  transition: all 0.15s; 
+}
+
+#learn-more:hover{
+  background-color: #00b3b3;
+}
+
+#winners2019{ 
+width: 70%; 
+height: 60%; 
+display: flex; 
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.winnerDiv{
+width: 27%; 
+height: 75%; 
+display: flex; 
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.label{
+width: 100%;
+text-align: center; 
+font-size: 2rem; 
+vertical-align: middle;
+color: #e704e6; 
+}
+
+.game{
+width: 100%; 
+height: 65%;
+background-position: center; 
+background-size: contain; 
+background-repeat: no-repeat;
+}
+
+.gameName{
+width: 100%; 
+text-align: center;
+font-size: 1.5rem; 
+vertical-align: middle;
+}
+
+#sumo-bootle{
+background-image: url('assets/images/sumo_bootle_2.png');
+}
+
+#planet-defender{
+background-image: url('assets/images/planet_defender.png');
+}
+
+#kolor-kaze{
+background-image: url('assets/images/kolor_kaze_3.png');
+}
+
+#toShowcaseBtn{
+background-color: aqua;
+border: none; 
+margin-top: 3%; 
+height: 8%; 
+width: 14%; 
+min-width: 200px; 
+text-align: center; 
+font-size: 1.5rem; 
+transition: all 0.15s; 
+}
+
+#toShowcaseBtn:hover{
+background-color: #00b3b3;
+}
+
+#intro-contact{
+background-image: url('assets/images/bci_games_footer_banner.png');
+background-size: cover; 
+background-repeat: no-repeat;
+height: 50%; 
+justify-content: center;
+}
+
+#sponsorLogos{
+width: 90%; 
+display: flex;
+flex-direction: row; 
+justify-content: space-between;
+align-items: center;
+}
+
+.sponsorLogo{
+width: 25%; 
+}
+
+#partnerLogos{
+width: 90%;
+display: flex; 
+flex-direction: row; 
+justify-content: space-between;
+align-items: center;
+}
+
+.partnerLogo{
+width: 25%;
+}
+
+
+
+/* ------------------------------------------------------------- */
+/* Content Pages - General */
+
+#content h3{
+margin-left: 3%; 
+font-weight: bold; 
+color: #e704e6;
+font-size: 3rem; 
+
+}
+
+#content h4{
+margin-left: 3%;
+font-weight: bold; 
+color: #ffe6ff;
+font-size: 2rem; 
+}
+
+#content p{
+margin-left: 3%; 
+margin-right: 3%; 
+}
+
+#content ol{
+margin-left: 3%; 
+margin-right: 3%; 
+}
+
+#content ul{
+margin-left: 3%; 
+margin-right: 3%; 
+}
+
+#content .btnContainer{
+width: 100%; 
+height: 8%; 
+display: flex; 
+justify-content: center;
+margin-top: 4%; 
+margin-bottom: 4%;
+}
+
+.videoCentered{
+width: 100%; 
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+/* ------------------------------------------------------------- */
+/* Event Details Page */
+
+#linktoResources{
+color: #e704e6;
+text-decoration: none;
+}
+#linkToResources:hover{
+color: #ffe6ff;
+}
+
+#toRegistrationInfoBtn{
+width: 14%; 
+height: 100%; 
+min-width: 150; 
+background-color: aqua;
+border: none; 
+transition: all 0.15s; 
+text-align: center; 
+font-size: 1.5rem; 
+
+}
+
+#toRegistrationInfoBtn:hover{
+background-color: #00b3b3;
+}
+
+/* ------------------------------------------------------------- */
+/* Schedule Page */
+
+.scheduleGrid{
+margin-left: 3%; 
+width: 50%;
+min-width: 600px; 
+display: grid; 
+grid-template-columns: 15% 85%;
+align-items: start;
+}
+
+.time{
+font-weight: bold; 
+color: #e704e6;
+}
+
+/* ------------------------------------------------------------- */
+/* 2019 Showcase Page */
+
+#showcaseGrid{
+margin-left: 3%;
+width: 90%; 
+height: 200%; 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr; 
+column-gap: 5%; 
+row-gap: 5%; 
+} 
+
+.showcaseDiv{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.showcaseTitle{
+height: 8%; 
+margin-bottom: 2%;
+width: 100%; 
+font-weight: bold; 
+color: #e704e6;
+font-size: 1.5rem;
+}
+
+.showcaseScreenshot{
+height: 70%; 
+width: 100%;
+}
+
+#yummyYuckyGif{
+margin-bottom: 2%; 
+height: 70%; 
+width: 100%; 
+}
+
+.showcaseDescrip{
+height: 18%; 
+width: 100%; 
 }
 
 }
