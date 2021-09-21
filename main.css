@@ -533,7 +533,7 @@ width: 100%;
 
   .sponsorLogo{
     min-width: 60%; 
-    max-width: 80%; 
+    max-width: 70%; 
     margin-top: 5%; 
     margin-bottom: 5%; 
   }
@@ -547,7 +547,7 @@ width: 100%;
 
   .partnerLogo{
     min-width: 60%; 
-    max-width: 80%; 
+    max-width: 70%; 
     margin-top: 5%; 
     margin-bottom: 5%; 
   }
@@ -556,11 +556,6 @@ width: 100%;
     min-height: 600px; 
     max-height: 700px; 
   }
-
-/*   #dropdown-menus{
-    display: none;
-  } */
-
 
   #logo{
     min-width: 200px; 
