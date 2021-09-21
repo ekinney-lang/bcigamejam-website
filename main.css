@@ -159,6 +159,10 @@ align-items: center;
   background-color: #c903c9;
 }
 
+.hamburger{
+  display: none; 
+}
+
 
 /* ------------------------------------------------------------- */
 /* Landing Page Content */ 
@@ -355,13 +359,7 @@ align-items: center;
 /* ------------------------------------------------------------- */
 /* Event Details Page */
 
-#linktoResources{
-color: #e704e6;
-text-decoration: none;
-}
-#linkToResources:hover{
-color: #ffe6ff;
-}
+
 
 #toRegistrationInfoBtn{
 width: 14%; 
@@ -446,7 +444,7 @@ width: 100%;
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 360px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 812px) 
  { 
 
@@ -489,7 +487,7 @@ width: 100%;
   .intro-content{
     width: 100%; 
     height: 100%; 
-    min-width: 355px; 
+    min-width: 300px; 
     max-width: 800px; 
     min-height: 1200px;   
     display: flex; 
@@ -558,6 +556,68 @@ width: 100%;
     min-height: 600px; 
     max-height: 700px; 
   }
+
+/*   #dropdown-menus{
+    display: none;
+  } */
+
+
+  #logo{
+    min-width: 200px; 
+    min-height: 80px; 
+    max-height: 130px; 
+
+  }
+
+  #dropdown-menus{
+    min-height: 40px; 
+    max-height: 50px; 
+  }
+  .dropdown{
+    min-width: 70px; 
+  }
+  .dropbtn{
+    font-size: 1rem; 
+  }
+  .dropdown-content{
+    font-size: 1rem; 
+  }
+  .dropdown-content a{
+    padding: 6px 8px; 
+  }
+
+/*   .hamburger{
+    display: inline-block; 
+    cursor: pointer;
+    margin-right: 5%; 
+  } */
+
+/*   .hamburger-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+} */
+
+  #content .btnContainer{
+    height: 10%; 
+  }
+
+  .scheduleGrid{
+    width: 95%; 
+    min-width: 300px; 
+    grid-template-columns: 25% 75%; 
+  }
+
+  #showcaseGrid{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, 1fr);
+    row-gap: 7%; 
+  }
+
 
 }
 

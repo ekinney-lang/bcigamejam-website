@@ -34,6 +34,11 @@ class Header extends HTMLElement {
                         </div>
                     </div>
                 </div>
+                <div class="hamburger">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </div>
         </div>
         `;
       }
