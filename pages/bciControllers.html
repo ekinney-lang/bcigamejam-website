@@ -12,7 +12,35 @@
 
             <div id="content">
                 <h3>BCI Controllers</h3>
-                <p>Information coming soon!</p>
+                <p>
+                    There are a number of different control schemes you can use to integrate BCI into your game. 
+                    We have even developed some tools to help get you started so you can focus on designing your game, without having to program all the BCI bits yourself!
+                </p>
+
+                <h4>The P300 Event</h4>
+                <p>
+                    The P300 event is a pattern that happens in your brain activity when you are focused on something and a sudden, unexpected change occurs (this is called the "oddball paradigm"). 
+                    This pattern shows up as a positive spike in amplitude approximately 300ms after the unexpected change occurred (hence the name P300). 
+                    This event appears in a known region of the brain, that we can measure using electrodes placed on the scalp over that area. 
+                </p>
+                <p>
+                    To use this event as a control scheme for a BCI-enabled game, we visually flash objects on a grid on the screen.
+                    The user simply needs to focus on a specific object in the grid, and when that object flashes, the brain detects the flash as an unexpected change and thus the P300 response appears. 
+                    The BCI monitors brain activity for that P300 event, and associates it to object that flashed at the same time point the P300 appeared in the brain activity. 
+                    In that way, the user is able to select an object in the grid simply by visually focusing on it. 
+                </p>
+                <p>
+                    We have created an adjustable tool in Unity that will set up this grid, execute the random flashing sequence and take care of the brain activity processing in the background. 
+                    You can take this tool and adjust the size and shape of the grid, change the types of objects that are flashing, and even implement auditory feedback to incorporate P300 into your game however you want. 
+                    The only thing that matters is that the oddball paradigm is kept intact - that the stimulus gets randomly presented while the user focuses on one of the possible selections!
+                </p>
+                <div class="videoCentered">
+                    <iframe width="560" height="315" src="https://youtu.be/9SIBtW1QqT8" title="NME Explains: The P300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <h4>Making Use of Mental Commands</h4>
+                <p>
+                </p>
             </div>
         </div>
         
