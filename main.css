@@ -3,10 +3,13 @@
 @font-face {
   font-family: "Phenomena";
   src: url("assets/fonts/phenomena_font/Phenomena-Regular.ttf") format("truetype");
+
+}
+
+@font-face {
   font-family:"Heebo";
   src: url("assets/fonts/heebo_font/Heebo-Light.ttf") format("truetype");
 }
-
 
 
 /* ----------- Desktop ----------- */
