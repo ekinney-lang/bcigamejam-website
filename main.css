@@ -405,10 +405,10 @@ background-color: #00b3b3;
 
 .scheduleGrid{
 margin-left: 3%; 
-width: 50%;
-min-width: 600px; 
+width: 80%;
+min-width: 800px; 
 display: grid; 
-grid-template-columns: 15% 85%;
+grid-template-columns: 20% 80%;
 align-items: start;
 }
 
