@@ -32,6 +32,14 @@ h2 {
   font-size: 3rem; 
 }
 
+h3 { 
+  font-family: "Phenomena"; 
+}
+
+h4 {
+  font-family: "Phenomena";
+}
+
 button {
   font-family: "Heebo";
 }
@@ -664,8 +672,8 @@ width: 100%;
 
   .scheduleGrid{
     width: 95%; 
-    min-width: 300px; 
-    grid-template-columns: 25% 75%; 
+    min-width: 350px; 
+    grid-template-columns: 30% 70%; 
   }
 
   #showcaseGrid{
