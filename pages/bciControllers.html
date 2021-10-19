@@ -33,6 +33,7 @@
                     We have created an adjustable tool in Unity that will set up this grid, execute the random flashing sequence and take care of the brain activity processing in the background. 
                     You can take this tool and adjust the size and shape of the grid, change the types of objects that are flashing, and even implement auditory feedback to incorporate P300 into your game however you want. 
                     The only thing that matters is that the oddball paradigm is kept intact - that the stimulus gets randomly presented while the user focuses on one of the possible selections!
+                    You can find the 2019 stable tool at this repository: <a href=https://github.com/ekinney-lang/bci-game-jam2019>BCI Game Jam 2019 Repo</a>.
                 </p>
                 <div class="videoCentered">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/9SIBtW1QqT8" title="NME Explains: The P300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,6 +41,29 @@
 
                 <h4>Making Use of Mental Commands</h4>
                 <p>
+                    Mental commands refer to a simplistic BCI control scheme where a person simply imagines some vivid imagery, like moving an object in a direction.
+                    These are used by some commercial BCI headsets, and are meant to help distinguish intended actions by the user by taking a 'snapshot' of what the brain activity looks like during any given command.
+                    Typically, the first mental command that needs to be trained/identified is a rest or 'neutral' command. 
+                    This allows the computer to know what the 'non-action' state of the brain looks like, and gives a ground baseline for the computer to compare against. 
+                    Then when you train an active mental command, say imagining pushing an object away from you, the BCI headset can now distinguish between the two snapshots to decide if you were actively imagining your mental command or not (neutral).
+                </p>
+                <p>
+                    Typically, as more mental commands are trained it becomes more difficult for the BCI systems to reliably separte each command. 
+                    We therefore are recommending for game developers to think about how to build games that play well with a limited number of actions if they are building for mental command BCIs.
+                    Previously this meant playing games using just a single (or maybe two) buttons! 
+                </p>
+                <p>
+                    A big consideration when thinking about using mental commands in a BCI game is that, at the moment, these commands are triggered by surpassing a threshold.
+                    Functionally this means that the BCI command is registered more like a mouse click than a button press - there is not a 'hold' option for triggering the mental command from the BCI side.
+                    So when thinking about game design with mental commands you either want to use the mental command to activate instant actions (click an option, move a set distance etc.) or design your game to require successive inputs that build up in order to trigger the action of interest. 
+                    An example of how this could be used is similar to the typical "repeatedly press <i>A/X/F</i>" to lift a heavy object or open a chest, like in <i>God of War</i> or <i>The Last of Us</i>.
+                    Instead of resetting the user's count to 0 on a failed press perhaps create a 'bank' of presses that slowly gains until the action initiates.
+                    In this manner the mental command BCI rapid triggering can be simulated as a longer 'hold' action if that's of interest. This could also work with the neutral/rest command!
+                </p>
+                <p>
+                    Another thing to consider when using mental commands is that there is a built in delay between when the mental command is given and when the BCI is able to identify and send the command.
+                    This delay is usually somewhere between 150 - 500 milliseconds depending on the system, computational resources, processing etc.
+                    Therefore its important to consider how to naturally allow grace for this delay to not affect the feel of the game. Using the above banking method or time-warping mechanics represent exmaples of how to overcome this natural delay barrier for players.
                 </p>
             </div>
         </div>
