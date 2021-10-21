@@ -435,6 +435,23 @@ color: #e704e6;
 }
 
 /* ------------------------------------------------------------- */
+/* Judging Criteria Page */
+.prizeGrid{
+  margin-left: 3%; 
+  width: 30%; 
+  min-width: 300px; 
+  display: grid; 
+  grid-template-columns: 60% 40%;
+  align-items: start; 
+  margin-bottom: 3%; 
+}
+
+.prize{
+  font-weight: bold; 
+  color: #e704e6;
+}
+
+/* ------------------------------------------------------------- */
 /* 2019 Showcase Page */
 
 #showcaseGrid{
