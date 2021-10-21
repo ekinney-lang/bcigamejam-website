@@ -298,13 +298,25 @@ height: 50%;
 justify-content: center;
 }
 
-#sponsorLogos{
-width: 90%; 
-display: flex;
-flex-direction: row; 
-justify-content: space-between;
-align-items: center;
+#sponsorLogos1{
+  min-height: 35%;
+  width: 90%; 
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
 }
+
+#sponsorLogos2{
+  min-height: 35%;   
+  width: 65%; 
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%; 
+}
+
 
 .sponsorLogoLink{
   width: 20%; 
@@ -313,12 +325,17 @@ align-items: center;
   width: 100%; 
 }
 
+.sponsorLogoLink2{
+  width: 30%; 
+  max-height: 350px;
+}
+
 #partnerLogos{
-width: 90%;
-display: flex; 
-flex-direction: row; 
-justify-content: space-between;
-align-items: center;
+  width: 90%;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
 }
 
 .partnerLogoLink{
@@ -545,7 +562,14 @@ width: 100%;
     height: 5%;
   }
 
-  #sponsorLogos{
+  #sponsorLogos1{
+    max-height: 70%; 
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #sponsorLogos2{
     max-height: 70%; 
     flex-direction: column; 
     justify-content: space-between;
@@ -557,6 +581,13 @@ width: 100%;
     max-width: 70%; 
     margin-top: 5%; 
     margin-bottom: 5%; 
+  }
+
+  .sponsorLogoLink2{
+    min-width: 70%; 
+    max-width: 80%; 
+    margin-top: 3%; 
+    margin-bottom: 3%; 
   }
 
   .sponsorLogo{
