@@ -263,6 +263,172 @@ font-size: 1.5rem;
 vertical-align: middle;
 }
 
+
+#winner2021{
+  width: 70%; 
+  height: 60%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.winnerDiv{
+  width: 50%; 
+  height: 75%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .label{
+  width: 100%;
+  text-align: center; 
+  font-size: 2rem; 
+  vertical-align: middle;
+  color: #e704e6; 
+  }
+  
+  .game{
+  width: 100%; 
+  height: 65%;
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  }
+  
+  .gameName{
+  width: 100%; 
+  text-align: center;
+  font-size: 1.5rem; 
+  vertical-align: middle;
+  }
+
+#runnerUpGames{
+  width: 70%; 
+  height: 60%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.winnerDiv{
+  width: 33%; 
+  height: 75%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .label{
+  width: 100%;
+  text-align: center; 
+  font-size: 2rem; 
+  vertical-align: middle;
+  color: #e704e6; 
+  }
+  
+  .game{
+  width: 100%; 
+  height: 65%;
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  }
+  
+  .gameName{
+  width: 100%; 
+  text-align: center;
+  font-size: 1.5rem; 
+  vertical-align: middle;
+  }
+
+#choiceCategories{
+  width: 70%; 
+  height: 60%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.winnerDiv{
+  width: 27%; 
+  height: 75%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .label{
+  width: 100%;
+  text-align: center; 
+  font-size: 2rem; 
+  vertical-align: middle;
+  color: #e704e6; 
+  }
+  
+  .game{
+  width: 100%; 
+  height: 65%;
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  }
+  
+  .gameName{
+  width: 100%; 
+  text-align: center;
+  font-size: 1.5rem; 
+  vertical-align: middle;
+  }
+
+#integrationCategories{
+  width: 70%; 
+  height: 60%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.winnerDiv{
+  width: 18%; 
+  height: 75%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .label{
+  width: 100%;
+  text-align: center; 
+  font-size: 2rem; 
+  vertical-align: middle;
+  color: #e704e6; 
+  }
+  
+  .game{
+  width: 100%; 
+  height: 65%;
+  background-position: center; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  }
+  
+  .gameName{
+  width: 100%; 
+  text-align: center;
+  font-size: 1.5rem; 
+  vertical-align: middle;
+  }
+
+
 /*2019 Game Classes */
 #sumo-bootle{
 background-image: url('assets/images/sumo_bootle_2.png');
@@ -511,8 +677,10 @@ width: 100%;
 }
 
 .showcaseDescrip{
-height: 18%; 
-width: 100%; 
+height: auto; 
+width: 100%;
+text-align: justify;
+text-justify: inter-word; 
 }
 
 /* ----------- Mobile ----------- */
@@ -586,7 +754,6 @@ width: 100%;
     flex-direction: column;
     justify-content: space-around;
   }
-
   .winnerDiv{
     width: 80%; 
     height: 28%; 
@@ -599,12 +766,22 @@ width: 100%;
     flex-direction: column;
     justify-content: space-around;
   }
+  .winnerDiv{
+    width: 80%; 
+    height: 28%; 
+    min-height: 200px; 
+  }
 
   #runnerUpGames{
     height: 90%;
     width: 90%; 
     flex-direction: column;
     justify-content: space-around;
+  }
+  .winnerDiv{
+    width: 80%; 
+    height: 28%; 
+    min-height: 200px; 
   }
 
   #choiceCategories{
@@ -613,12 +790,22 @@ width: 100%;
     flex-direction: column;
     justify-content: space-around;
   }
+  .winnerDiv{
+    width: 80%; 
+    height: 28%; 
+    min-height: 200px; 
+  }
 
   #integrationCategories{
     height: 90%;
     width: 90%; 
     flex-direction: column;
     justify-content: space-around;
+  }
+  .winnerDiv{
+    width: 80%; 
+    height: 28%; 
+    min-height: 200px; 
   }
 
 
