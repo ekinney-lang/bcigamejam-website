@@ -263,6 +263,7 @@ font-size: 1.5rem;
 vertical-align: middle;
 }
 
+/*2019 Game Classes */
 #sumo-bootle{
 background-image: url('assets/images/sumo_bootle_2.png');
 }
@@ -274,6 +275,28 @@ background-image: url('assets/images/planet_defender.png');
 #kolor-kaze{
 background-image: url('assets/images/kolor_kaze_3.png');
 }
+
+/*2021 Game Classes */
+#musae-labs{
+  background-image: url('assets/images/musaelabs.png');
+}
+
+#kerl{
+  background-image: url('assets/images/Kerl.PNG');
+}
+
+#a-team{
+  background-image: url('assets/images/ateam_screenshot.png');
+}
+
+#maze-madness{
+  background-image: url('assets/images/mazemadness.png');
+}
+
+#gravy-train{
+  background-image: url('assets/images/Gravy_Train.png');
+}
+
 
 #toShowcaseBtn{
 background-color: aqua;
