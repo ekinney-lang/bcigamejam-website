@@ -593,6 +593,35 @@ width: 100%;
     min-height: 200px; 
   }
 
+  #winner2021{
+    height: 90%;
+    width: 90%; 
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #runnerUpGames{
+    height: 90%;
+    width: 90%; 
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #choiceCategories{
+    height: 90%;
+    width: 90%; 
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #integrationCategories{
+    height: 90%;
+    width: 90%; 
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
   #toShowcaseBtn{
     height: 5%;
   }
