@@ -21,6 +21,7 @@ class Header extends HTMLElement {
                         <button class="dropbtn" onclick="getElementById('showcaseMenu').classList.toggle('active');">Showcase</button>
                         <div class="dropdown-content" id="showcaseMenu" >
                             <a href="../pages/showcase2019.html">Game Jam 2019</a>
+                            <a href="../pages/showcase2021.html">Game Jam 2021</a>
                         </div>
                     </div>
                     <div class="dropdown">
