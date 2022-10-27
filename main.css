@@ -134,7 +134,7 @@ align-items: center;
 }
 
 .dropbtn {
-  height: 80%; 
+  height: 90%; 
   width: 100%; 
   font-size: 2rem; 
   font-weight: bold; 
@@ -908,7 +908,7 @@ text-justify: inter-word;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #e704e6;
+    background-color: #fcee21;
   }
 
   #dropdown-menus {
