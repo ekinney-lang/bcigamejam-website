@@ -19,7 +19,7 @@
 body {
   font-family: "Heebo"; 
   color: white;
-  font-size: 1.5rem; 
+  font-size: 1.75rem; 
 }
 
 h1 {
@@ -118,40 +118,45 @@ background-repeat: no-repeat;
 }
 
 #dropdown-menus{
-width: 45%; 
+width: 35%; 
 height: 60%;
 min-height: 60px; 
 margin-right: 2%; 
 display: flex; 
-justify-content: flex-end;
+justify-content: space-around;
 align-items: center; 
 }
 
 .dropdown {
-  min-width: 160px; 
+  min-width: 175px; 
   position: relative;
   display: inline-block;
 }
 
 .dropbtn {
-  height: 100%; 
+  height: 80%; 
   width: 100%; 
   font-size: 2rem; 
   font-weight: bold; 
   font-family: 'Phenomena';
-  background-color: #e704e6;
-  color: white;
+  background-color: #fcee21;
+  color: #262626;
   border: none;
   cursor: pointer;
+  transition: all linear 0.5s;
+  border-radius: 4px; 
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  width: 100%; 
+  width: 98%; 
   display: none;
+  border-radius: 2px;
   position: absolute;
-  background-color:#ffe6ff;
-  font-size: 1.5rem; 
+  border: 0.1rem solid #fcee21;
+  background-color:#fffde6;
+  transition: all linear 0.4s; 
+  font-size: 1.25rem; 
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -174,7 +179,9 @@ align-items: center;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #c903c9;
+  background-color: transparent;
+  border: 0.2rem solid #fcee21; 
+  color: #fcee21;
 }
 
 .hamburger{
@@ -200,7 +207,7 @@ align-items: center;
 #game-jam-logo{
 width: 95%; 
 height: 95%; 
-background-image: url('assets/images/game_jam_logo.png');
+background-image: url('assets/images/BCI Game Jam 2022 Test Logo.png');
 background-position: center; 
 background-size: contain; 
 background-repeat: no-repeat;
@@ -209,17 +216,30 @@ background-repeat: no-repeat;
 #learn-more{
   background-color: aqua;
   border: none; 
-  margin-top: 2%; 
+  border-radius: 4px; 
+  margin-top: 3%; 
   height: 8%; 
-  width: 10%; 
-  min-width: 120px; 
+  width: 14%; 
+  min-width: 200px; 
   text-align: center; 
   font-size: 1.5rem; 
-  transition: all 0.15s; 
+  font-weight: bold; 
+  transition: all linear 0.5s; 
 }
 
 #learn-more:hover{
-  background-color: #00b3b3;
+  background-color: #262626; 
+  color: aqua; 
+  border: 0.2rem solid aqua; 
+}
+
+#winners2021{
+  width: 70%; 
+  height: 60%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #winners2019{ 
@@ -243,9 +263,10 @@ align-items: center;
 .label{
 width: 100%;
 text-align: center; 
-font-size: 2rem; 
+font-size: 2.5rem; 
+font-weight: bold; 
 vertical-align: middle;
-color: #e704e6; 
+color: #fcee21; 
 }
 
 .game{
@@ -467,17 +488,21 @@ background-image: url('assets/images/kolor_kaze_3.png');
 #toShowcaseBtn{
 background-color: aqua;
 border: none; 
+border-radius: 4px; 
 margin-top: 3%; 
 height: 8%; 
 width: 14%; 
 min-width: 200px; 
 text-align: center; 
 font-size: 1.5rem; 
-transition: all 0.15s; 
+font-weight: bold; 
+transition: all linear 0.5s; 
 }
 
 #toShowcaseBtn:hover{
-background-color: #00b3b3;
+background-color: #262626; 
+color: aqua; 
+border: 0.2rem solid aqua; 
 }
 
 #intro-contact{
@@ -537,16 +562,17 @@ justify-content: center;
 #content h3{
 margin-left: 3%; 
 font-weight: bold; 
-color: #e704e6;
+color: #fcee21;
 font-size: 3rem; 
 
 }
 
 #content h4{
 margin-left: 3%;
-font-weight: bold; 
-color: #ffe6ff;
-font-size: 2rem; 
+font-weight: normal; 
+color: #fcee21;
+font-size: 2.5rem; 
+margin-block-end: 0em; 
 }
 
 #content p{
@@ -591,14 +617,17 @@ height: 100%;
 min-width: 150; 
 background-color: aqua;
 border: none; 
-transition: all 0.15s; 
+border-radius: 4px; 
 text-align: center; 
 font-size: 1.5rem; 
-
+font-weight: bold; 
+transition: all linear 0.5s; 
 }
 
 #toRegistrationInfoBtn:hover{
-background-color: #00b3b3;
+  background-color: #262626; 
+  color: aqua; 
+  border: 0.2rem solid aqua; 
 }
 
 /* ------------------------------------------------------------- */
@@ -615,7 +644,7 @@ align-items: start;
 
 .time{
 font-weight: bold; 
-color: #e704e6;
+color: #fcee21;
 }
 
 /* ------------------------------------------------------------- */
@@ -632,7 +661,7 @@ color: #e704e6;
 
 .prize{
   font-weight: bold; 
-  color: #e704e6;
+  color: #fcee21;
 }
 
 /* ------------------------------------------------------------- */
@@ -661,7 +690,7 @@ height: 8%;
 margin-bottom: 1%;
 width: 100%; 
 font-weight: bold; 
-color: #e704e6;
+color: #fcee21;
 font-size: 1.5rem;
 }
 

@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                         <button class="dropbtn" onclick="getElementById('infoMenu').classList.toggle('active');">Information</button>
                         <div class="dropdown-content" id="infoMenu" >
                             <a href="../pages/eventDetails.html">Event Details</a>
-                            <a href="../pages/howToRegister.html">How To Register</a>
+                            <a href="../pages/howToRegister.html">Register</a>
                             <a href="../pages/schedule.html">Schedule</a>
                             <a href="../pages/judgingCriteria.html">Judging Criteria</a>
                         </div>
